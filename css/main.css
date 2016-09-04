@@ -1,3 +1,18 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+ }
+
+#main {
+  flex: 1 0 auto;
+}
+
+footer{
+
+
+}
+      
 
 .titulo{
     line-height: normal;
@@ -51,4 +66,50 @@
 
 }
 
+.padayu{
+	height: 1px;
+	margin: 1%;
+}
 
+.padayu2{
+
+		height: 1px;
+		margin-bottom: 18%;
+}
+
+
+.especial{
+	float: right;
+	text-decoration: none;
+}
+
+.circulo{
+	height: 250px;
+	width: 250px;
+
+
+
+}
+
+
+
+@media (max-width: 800px) {
+
+
+	.row a{
+		margin: 2%;
+		display: list-item;
+	}
+
+	.row .btn-default{
+		display: list-item;
+		word-wrap: break-word;
+		float: left;	}
+	/*
+
+	.botonyo{
+		margin: 2%;
+	}
+	*/
+	
+}
